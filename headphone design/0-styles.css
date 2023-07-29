@@ -1,0 +1,37 @@
+/* BODY */
+body .p{
+    background-image: url('headphones_hero_1.jpg');
+    background-repeat: no-repeat;
+}
+
+/* HEADER */
+
+.header .logo .img{
+    float: left;
+}
+
+/* NAVIGATION */
+
+.header .nav .ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.header .nav .li{
+    float: left;
+}
+
+.header .nav .li .a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a :hover{
+    background-color: blue;
+}
